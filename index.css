@@ -31745,7 +31745,7 @@ dialog {
 
 a {
   --tw-text-opacity: 1;
-  color: rgba(45, 212, 191, var(--tw-text-opacity));
+  color: rgba(235, 87, 87, var(--tw-text-opacity));
 }
 
 .title {
@@ -31825,7 +31825,7 @@ nav a {
 
 nav .active {
   --tw-text-opacity: 1;
-  color: rgba(147, 197, 253, var(--tw-text-opacity));
+  color: rgba(235, 87, 87, var(--tw-text-opacity));
 }
 
 nav.nav-bottom {
@@ -31847,8 +31847,6 @@ nav.nav-fixed {
 }
 
 .app-pill {
-  --tw-bg-opacity: 1;
-  background-color: rgba(235, 87, 87, var(--tw-bg-opacity));
   border-radius: 9999px;
   display: inline-block;
   font-weight: 600;
@@ -31858,11 +31856,57 @@ nav.nav-fixed {
   margin-right: 0.5rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   --tw-text-opacity: 1;
   color: rgba(250, 250, 249, var(--tw-text-opacity));
   text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+button.app-button {
+  letter-spacing: 2px;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button.app-button span {
+  -webkit-animation: animate 500ms linear infinite;
+          animation: animate 500ms linear infinite;
+  background: #fff;
+  border-radius: 50%;
+  pointer-events: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+@-webkit-keyframes animate {
+  0% {
+    opacity: 0.10;
+    height: 0px;
+    width: 0px;
+  }
+
+  100% {
+    opacity: 0;
+    height: 1000px;
+    width: 1000px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0.10;
+    height: 0px;
+    width: 0px;
+  }
+
+  100% {
+    opacity: 0;
+    height: 1000px;
+    width: 1000px;
+  }
 }
 
 @media (min-width: 640px){
