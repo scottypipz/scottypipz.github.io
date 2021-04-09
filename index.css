@@ -31718,6 +31718,10 @@ video {
           animation: bounce 1s infinite;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 button:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -31859,7 +31863,7 @@ nav.nav-fixed {
   padding-left: 1rem;
   padding-right: 1rem;
   --tw-text-opacity: 1;
-  color: rgba(250, 250, 249, var(--tw-text-opacity));
+  color: rgba(68, 64, 60, var(--tw-text-opacity));
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
