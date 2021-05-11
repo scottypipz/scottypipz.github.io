@@ -31722,6 +31722,10 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 button:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
