@@ -18965,7 +18965,6 @@ video {
 }
 
 .sticky{
-  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -50511,7 +50510,6 @@ button.app-button span {
   }
 
   .sm\:sticky{
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -81780,7 +81778,6 @@ button.app-button span {
   }
 
   .md\:sticky{
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -113049,7 +113046,6 @@ button.app-button span {
   }
 
   .lg\:sticky{
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -144318,7 +144314,6 @@ button.app-button span {
   }
 
   .xl\:sticky{
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -175587,7 +175582,6 @@ button.app-button span {
   }
 
   .\32xl\:sticky{
-    position: -webkit-sticky;
     position: sticky;
   }
 
